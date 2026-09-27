@@ -1,7 +1,683 @@
 {
   "products": [
-    { "id": 1, "name": "Cama", "price": 150000, "stock": 5, "category": "Hogar" },
-    { "id": 2, "name": "Silla", "price": 10000, "stock": 15, "category": "Oficina" },
-    { "id": 3, "name": "Mesa", "price": 50000, "stock": 6, "category": "Hogar" }
+    {
+      "id": 1,
+      "name": "Cama",
+      "price": 150000,
+      "stock": 5,
+      "category": "Hogar"
+    },
+    {
+      "id": 2,
+      "name": "Silla",
+      "price": 10000,
+      "stock": 15,
+      "category": "Oficina"
+    },
+    {
+      "id": 3,
+      "name": "Mesa",
+      "price": 50000,
+      "stock": 6,
+      "category": "Hogar"
+    },
+    {
+      "id": 4,
+      "name": "Sofá",
+      "price": 59000,
+      "stock": 1,
+      "category": "Hogar"
+    },
+    {
+      "id": 5,
+      "name": "Ropero",
+      "price": 142000,
+      "stock": 15,
+      "category": "Hogar"
+    },
+    {
+      "id": 6,
+      "name": "Espejo",
+      "price": 116000,
+      "stock": 8,
+      "category": "Hogar"
+    },
+    {
+      "id": 7,
+      "name": "Alfombra",
+      "price": 54000,
+      "stock": 34,
+      "category": "Hogar"
+    },
+    {
+      "id": 8,
+      "name": "Lámpara de pie",
+      "price": 46000,
+      "stock": 37,
+      "category": "Hogar"
+    },
+    {
+      "id": 9,
+      "name": "Cortinas",
+      "price": 218000,
+      "stock": 2,
+      "category": "Hogar"
+    },
+    {
+      "id": 10,
+      "name": "Almohadón",
+      "price": 17000,
+      "stock": 5,
+      "category": "Hogar"
+    },
+    {
+      "id": 11,
+      "name": "Colchón",
+      "price": 113000,
+      "stock": 14,
+      "category": "Hogar"
+    },
+    {
+      "id": 12,
+      "name": "Mesa ratona",
+      "price": 260000,
+      "stock": 38,
+      "category": "Hogar"
+    },
+    {
+      "id": 13,
+      "name": "Estantería",
+      "price": 15000,
+      "stock": 35,
+      "category": "Hogar"
+    },
+    {
+      "id": 14,
+      "name": "Perchero",
+      "price": 103000,
+      "stock": 34,
+      "category": "Hogar"
+    },
+    {
+      "id": 15,
+      "name": "Cómoda",
+      "price": 216000,
+      "stock": 14,
+      "category": "Hogar"
+    },
+    {
+      "id": 16,
+      "name": "Velador",
+      "price": 231000,
+      "stock": 37,
+      "category": "Hogar"
+    },
+    {
+      "id": 17,
+      "name": "Biombo",
+      "price": 144000,
+      "stock": 0,
+      "category": "Hogar"
+    },
+    {
+      "id": 18,
+      "name": "Cesto de ropa",
+      "price": 83000,
+      "stock": 27,
+      "category": "Hogar"
+    },
+    {
+      "id": 19,
+      "name": "Escritorio",
+      "price": 176000,
+      "stock": 17,
+      "category": "Oficina"
+    },
+    {
+      "id": 20,
+      "name": "Silla ergonómica",
+      "price": 81000,
+      "stock": 13,
+      "category": "Oficina"
+    },
+    {
+      "id": 21,
+      "name": "Archivador",
+      "price": 174000,
+      "stock": 6,
+      "category": "Oficina"
+    },
+    {
+      "id": 22,
+      "name": "Pizarra",
+      "price": 49000,
+      "stock": 24,
+      "category": "Oficina"
+    },
+    {
+      "id": 23,
+      "name": "Organizador de cables",
+      "price": 51000,
+      "stock": 22,
+      "category": "Oficina"
+    },
+    {
+      "id": 24,
+      "name": "Lámpara de escritorio",
+      "price": 178000,
+      "stock": 38,
+      "category": "Oficina"
+    },
+    {
+      "id": 25,
+      "name": "Cajonera",
+      "price": 137000,
+      "stock": 2,
+      "category": "Oficina"
+    },
+    {
+      "id": 26,
+      "name": "Separador de ambientes",
+      "price": 237000,
+      "stock": 34,
+      "category": "Oficina"
+    },
+    {
+      "id": 27,
+      "name": "Sillón gerencial",
+      "price": 65000,
+      "stock": 24,
+      "category": "Oficina"
+    },
+    {
+      "id": 28,
+      "name": "Mesa de reunión",
+      "price": 42000,
+      "stock": 35,
+      "category": "Oficina"
+    },
+    {
+      "id": 29,
+      "name": "Televisor",
+      "price": 152000,
+      "stock": 40,
+      "category": "Electrónica"
+    },
+    {
+      "id": 30,
+      "name": "Parlante bluetooth",
+      "price": 187000,
+      "stock": 36,
+      "category": "Electrónica"
+    },
+    {
+      "id": 31,
+      "name": "Auriculares",
+      "price": 100000,
+      "stock": 4,
+      "category": "Electrónica"
+    },
+    {
+      "id": 32,
+      "name": "Mouse",
+      "price": 25000,
+      "stock": 14,
+      "category": "Electrónica"
+    },
+    {
+      "id": 33,
+      "name": "Teclado",
+      "price": 150000,
+      "stock": 5,
+      "category": "Electrónica"
+    },
+    {
+      "id": 34,
+      "name": "Monitor",
+      "price": 121000,
+      "stock": 6,
+      "category": "Electrónica"
+    },
+    {
+      "id": 35,
+      "name": "Notebook",
+      "price": 196000,
+      "stock": 17,
+      "category": "Electrónica"
+    },
+    {
+      "id": 36,
+      "name": "Tablet",
+      "price": 234000,
+      "stock": 40,
+      "category": "Electrónica"
+    },
+    {
+      "id": 37,
+      "name": "Cargador USB-C",
+      "price": 188000,
+      "stock": 10,
+      "category": "Electrónica"
+    },
+    {
+      "id": 38,
+      "name": "Router wifi",
+      "price": 191000,
+      "stock": 22,
+      "category": "Electrónica"
+    },
+    {
+      "id": 39,
+      "name": "Webcam",
+      "price": 109000,
+      "stock": 17,
+      "category": "Electrónica"
+    },
+    {
+      "id": 40,
+      "name": "Disco externo",
+      "price": 38000,
+      "stock": 38,
+      "category": "Electrónica"
+    },
+    {
+      "id": 41,
+      "name": "Licuadora",
+      "price": 89000,
+      "stock": 34,
+      "category": "Cocina"
+    },
+    {
+      "id": 42,
+      "name": "Tostadora",
+      "price": 127000,
+      "stock": 10,
+      "category": "Cocina"
+    },
+    {
+      "id": 43,
+      "name": "Cafetera",
+      "price": 238000,
+      "stock": 24,
+      "category": "Cocina"
+    },
+    {
+      "id": 44,
+      "name": "Microondas",
+      "price": 140000,
+      "stock": 40,
+      "category": "Cocina"
+    },
+    {
+      "id": 45,
+      "name": "Juego de ollas",
+      "price": 287000,
+      "stock": 14,
+      "category": "Cocina"
+    },
+    {
+      "id": 46,
+      "name": "Sartén antiadherente",
+      "price": 168000,
+      "stock": 3,
+      "category": "Cocina"
+    },
+    {
+      "id": 47,
+      "name": "Batidora",
+      "price": 119000,
+      "stock": 2,
+      "category": "Cocina"
+    },
+    {
+      "id": 48,
+      "name": "Horno eléctrico",
+      "price": 163000,
+      "stock": 25,
+      "category": "Cocina"
+    },
+    {
+      "id": 49,
+      "name": "Pava eléctrica",
+      "price": 139000,
+      "stock": 4,
+      "category": "Cocina"
+    },
+    {
+      "id": 50,
+      "name": "Set de cuchillos",
+      "price": 110000,
+      "stock": 36,
+      "category": "Cocina"
+    },
+    {
+      "id": 51,
+      "name": "Procesadora",
+      "price": 163000,
+      "stock": 13,
+      "category": "Cocina"
+    },
+    {
+      "id": 52,
+      "name": "Anafe eléctrico",
+      "price": 257000,
+      "stock": 25,
+      "category": "Cocina"
+    },
+    {
+      "id": 53,
+      "name": "Manguera",
+      "price": 236000,
+      "stock": 9,
+      "category": "Jardín"
+    },
+    {
+      "id": 54,
+      "name": "Cortadora de césped",
+      "price": 137000,
+      "stock": 8,
+      "category": "Jardín"
+    },
+    {
+      "id": 55,
+      "name": "Maceta grande",
+      "price": 128000,
+      "stock": 35,
+      "category": "Jardín"
+    },
+    {
+      "id": 56,
+      "name": "Regadera",
+      "price": 277000,
+      "stock": 16,
+      "category": "Jardín"
+    },
+    {
+      "id": 57,
+      "name": "Set de jardinería",
+      "price": 221000,
+      "stock": 37,
+      "category": "Jardín"
+    },
+    {
+      "id": 58,
+      "name": "Parasol",
+      "price": 206000,
+      "stock": 23,
+      "category": "Jardín"
+    },
+    {
+      "id": 59,
+      "name": "Silla plegable",
+      "price": 114000,
+      "stock": 8,
+      "category": "Jardín"
+    },
+    {
+      "id": 60,
+      "name": "Reposera",
+      "price": 262000,
+      "stock": 31,
+      "category": "Jardín"
+    },
+    {
+      "id": 61,
+      "name": "Farol solar",
+      "price": 48000,
+      "stock": 3,
+      "category": "Jardín"
+    },
+    {
+      "id": 62,
+      "name": "Carretilla",
+      "price": 58000,
+      "stock": 9,
+      "category": "Jardín"
+    },
+    {
+      "id": 63,
+      "name": "Bicicleta",
+      "price": 83000,
+      "stock": 27,
+      "category": "Deportes"
+    },
+    {
+      "id": 64,
+      "name": "Pesas ajustables",
+      "price": 34000,
+      "stock": 24,
+      "category": "Deportes"
+    },
+    {
+      "id": 65,
+      "name": "Colchoneta de yoga",
+      "price": 197000,
+      "stock": 38,
+      "category": "Deportes"
+    },
+    {
+      "id": 66,
+      "name": "Pelota de fútbol",
+      "price": 241000,
+      "stock": 33,
+      "category": "Deportes"
+    },
+    {
+      "id": 67,
+      "name": "Raqueta de tenis",
+      "price": 130000,
+      "stock": 35,
+      "category": "Deportes"
+    },
+    {
+      "id": 68,
+      "name": "Cinta de correr",
+      "price": 7000,
+      "stock": 7,
+      "category": "Deportes"
+    },
+    {
+      "id": 69,
+      "name": "Guantes de boxeo",
+      "price": 276000,
+      "stock": 17,
+      "category": "Deportes"
+    },
+    {
+      "id": 70,
+      "name": "Mochila deportiva",
+      "price": 176000,
+      "stock": 7,
+      "category": "Deportes"
+    },
+    {
+      "id": 71,
+      "name": "Botella térmica",
+      "price": 152000,
+      "stock": 27,
+      "category": "Deportes"
+    },
+    {
+      "id": 72,
+      "name": "Soga para saltar",
+      "price": 82000,
+      "stock": 29,
+      "category": "Deportes"
+    },
+    {
+      "id": 73,
+      "name": "Taladro",
+      "price": 3000,
+      "stock": 16,
+      "category": "Herramientas"
+    },
+    {
+      "id": 74,
+      "name": "Caja de herramientas",
+      "price": 258000,
+      "stock": 11,
+      "category": "Herramientas"
+    },
+    {
+      "id": 75,
+      "name": "Escalera",
+      "price": 261000,
+      "stock": 6,
+      "category": "Herramientas"
+    },
+    {
+      "id": 76,
+      "name": "Amoladora",
+      "price": 154000,
+      "stock": 40,
+      "category": "Herramientas"
+    },
+    {
+      "id": 77,
+      "name": "Sierra circular",
+      "price": 261000,
+      "stock": 38,
+      "category": "Herramientas"
+    },
+    {
+      "id": 78,
+      "name": "Nivel láser",
+      "price": 103000,
+      "stock": 9,
+      "category": "Herramientas"
+    },
+    {
+      "id": 79,
+      "name": "Juego de llaves",
+      "price": 193000,
+      "stock": 10,
+      "category": "Herramientas"
+    },
+    {
+      "id": 80,
+      "name": "Compresor de aire",
+      "price": 278000,
+      "stock": 33,
+      "category": "Herramientas"
+    },
+    {
+      "id": 81,
+      "name": "Soldadora",
+      "price": 2000,
+      "stock": 38,
+      "category": "Herramientas"
+    },
+    {
+      "id": 82,
+      "name": "Multímetro",
+      "price": 167000,
+      "stock": 31,
+      "category": "Herramientas"
+    },
+    {
+      "id": 83,
+      "name": "Cuna",
+      "price": 11000,
+      "stock": 7,
+      "category": "Bebés"
+    },
+    {
+      "id": 84,
+      "name": "Cochecito",
+      "price": 187000,
+      "stock": 19,
+      "category": "Bebés"
+    },
+    {
+      "id": 85,
+      "name": "Silla para auto",
+      "price": 124000,
+      "stock": 3,
+      "category": "Bebés"
+    },
+    {
+      "id": 86,
+      "name": "Bañadera",
+      "price": 125000,
+      "stock": 36,
+      "category": "Bebés"
+    },
+    {
+      "id": 87,
+      "name": "Corralito",
+      "price": 42000,
+      "stock": 5,
+      "category": "Bebés"
+    },
+    {
+      "id": 88,
+      "name": "Mochila portabebé",
+      "price": 250000,
+      "stock": 4,
+      "category": "Bebés"
+    },
+    {
+      "id": 89,
+      "name": "Monitor de bebé",
+      "price": 274000,
+      "stock": 8,
+      "category": "Bebés"
+    },
+    {
+      "id": 90,
+      "name": "Cambiador",
+      "price": 67000,
+      "stock": 30,
+      "category": "Bebés"
+    },
+    {
+      "id": 91,
+      "name": "Heladera",
+      "price": 283000,
+      "stock": 10,
+      "category": "Electrodomésticos"
+    },
+    {
+      "id": 92,
+      "name": "Lavarropas",
+      "price": 137000,
+      "stock": 33,
+      "category": "Electrodomésticos"
+    },
+    {
+      "id": 93,
+      "name": "Aire acondicionado",
+      "price": 218000,
+      "stock": 13,
+      "category": "Electrodomésticos"
+    },
+    {
+      "id": 94,
+      "name": "Ventilador",
+      "price": 278000,
+      "stock": 12,
+      "category": "Electrodomésticos"
+    },
+    {
+      "id": 95,
+      "name": "Aspiradora",
+      "price": 161000,
+      "stock": 25,
+      "category": "Electrodomésticos"
+    },
+    {
+      "id": 96,
+      "name": "Plancha",
+      "price": 193000,
+      "stock": 28,
+      "category": "Electrodomésticos"
+    },
+    {
+      "id": 97,
+      "name": "Secarropas",
+      "price": 266000,
+      "stock": 28,
+      "category": "Electrodomésticos"
+    }
   ]
 }
